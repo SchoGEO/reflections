@@ -25,6 +25,12 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Situations might be when planning to develop a project into two (or more) different 
+	directions (experimental), not knowing yet which one of those will be the direction
+	to follow on further. Each possible of the different development directions becomes
+	a new branch with it's own name. After having decided which direction to follow, 
+	branches can be merged with the original master branch again.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
