@@ -15,6 +15,13 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	Compare content of staging area to both, working directory and most recent commit
+	in repository to see if changes in staging area only lead to one logical change.
+	If not, files added to staging area can be reverted with command git reset --hard.
+	Need to be very careful with this command.
+	compare working directory with staging area:	git diff
+	compare staging area with most recent commit:	git diff --staged
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
