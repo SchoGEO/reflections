@@ -26,7 +26,14 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    The benefit is that you're holding a mutual root that both, the remote and the
+	local versions have in common. When now pulling from the remote repository, 
+	it's easy to just update the copy of the last known state of the remote with
+	all the changes, using a fast-forward-merge. Then is up to date remote version
+	only needs to be merged with the current local branch which contains commits
+	which haven't been synced with the remote repository yet. Afterwards everything
+	can be pushed back to the remote repository, so that now both repositories are
+	up-to-date.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
