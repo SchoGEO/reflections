@@ -38,7 +38,13 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Use a shared drive, write changes directly into the files. There might be a lot
+	of conflicts when multiple people want to make changes. Changes might get lost,
+	if somebody makes a local copy and makes local changes there. During this time,
+	another person makes changes on the shared documents. Then, the other persone
+	exchanges hos local copy of a document with the shared document. At this time,
+	changes that have been made in the shared document get lost. 
+	Advantages: quicker changes possible without making pull requests. 
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
