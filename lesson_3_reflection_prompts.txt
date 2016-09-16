@@ -49,4 +49,9 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Changes in a separate branch can be experimental and especially when it takes
+	a larger amount of time to complete those changes, you can keep the local master
+	branch up-to-date with the remote master branch and from time to time merge it 
+	into the separate branch to keep everything compatible. Changes directly in the
+	master branch could have the benefit that you don't need to do that much pulling /
+	pushing / merging etc. This might be more convenient for small changes.
